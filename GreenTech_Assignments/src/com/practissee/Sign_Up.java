@@ -66,6 +66,8 @@ public class Sign_Up {
 		WebElement addressLast = driver.findElement(By.xpath("//input[@id='alias']"));
 		addressLast.clear();
 		addressLast.sendKeys("Adam street, Chennai");
+		
+		System.out.println("updated for git");
 
 		// driver.findElement(By.cssSelector("#submitAccount")).click();
 

@@ -35,6 +35,7 @@ public class MouseHover_Actions {
 		File srcFile = sc.getScreenshotAs(OutputType.FILE);
 		File destFile = new File("D:\\Selenium Files\\Screenshots\\hover.png");
 		FileUtils.copyFile(srcFile, destFile);
+		System.out.println("updated for git");
 		
 		
 		
